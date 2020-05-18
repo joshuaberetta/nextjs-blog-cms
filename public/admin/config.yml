@@ -4,12 +4,12 @@ backend:
 media_folder: public/images
 public_folder: images
 collections:
-  - name: "posts"
-    label: "Posts"
+  - name: "pages"
+    label: "Pages"
     files:
-      - label: "Pre-rendering"
-        name: "pre-rendering"
-        file: "posts/pre-rendering.md"
+      - label: "hello"
+        name: "hello"
+        file: "content/hello.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Date", name: "date", widget: "datetime" }
